@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(0, 0%, 8%); /*off black*/
     display: flex;
@@ -8,6 +12,7 @@ body {
     text-align: center;
     color: white;
     font-family: "Inter";
+    padding: 10px;
 }
 
 h1 {
@@ -36,7 +41,8 @@ h3 {
     background-color: hsl(0, 0%, 12%); /*dark grey*/
     border-radius: 15px;
     padding: clamp(20px, 5%, 30px);
-    width: 350px;
+    /* max-width: 350px; */
+    width: min(350px, 80vw);
 }
 
 .card img {
