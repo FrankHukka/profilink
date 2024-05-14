@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (Coming soon)
+- [Solution](https://www.frontendmentor.io/solutions/profile-link-page-with-smoothly-transitioning-active-states-p98m4ytM0n)
 - [Live Site](https://frankhukka.github.io/profilink/)
 
 ## My process
