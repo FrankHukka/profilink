@@ -37,7 +37,7 @@ h3 {
     background-color: hsl(0, 0%, 12%); /*dark grey*/
     border-radius: 15px;
     padding: clamp(20px, 5%, 30px);
-    width: min(350px, 375px);
+    width: 350px;
 }
 
 .card img {
@@ -58,10 +58,17 @@ h3 {
     font-size: 14px;
     font-weight: 600;
     border-radius: 10px;
-    border: 1px solid hsl(0, 0%, 20%); /*grey*/
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%); /*grey*/
     color: white;
     padding: 10px;
+    text-decoration: none;
+    transition: background-color 500ms linear,
+                color 400ms linear;
+}
+
+.buttons a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
     text-decoration: none;
 }
 
@@ -73,6 +80,10 @@ h3 {
 
 .attribution a {
     color: #fff8e7;
+}
+
+.attribution a:hover {
+    color: #f2f3f4;
 }
 
 @font-face {
